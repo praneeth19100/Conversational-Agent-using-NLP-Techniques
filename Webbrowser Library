@@ -1,0 +1,5 @@
+#Web Browser Library Implementation
+
+import webbrowser
+a_website = "www.Google.com"
+webbrowser.open_new(a_website)
