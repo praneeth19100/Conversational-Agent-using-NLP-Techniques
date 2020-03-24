@@ -1,0 +1,32 @@
+#Driver Code:
+#The Fullcode is still under progress
+
+import os
+import webbrowser
+import random
+from gtts import gTTS 
+
+def getReply(message):
+    #Julia asking the person for help. 
+    if 'hi' in message or 'Hi' in message or 'Hello' in message or 'hello' in message:
+        reply = "How may I help you?"
+        print('Julia: '+reply)
+        
+        mytext = 'How may I help you?'
+        language = 'en'
+        myobj = gTTS(text=mytext, lang=language, slow=False) 
+        myobj.save("output.mp3")
+        os.system("start output.mp3")
+    
+    else: 
+        print("I am sorry. I can't understand you.")
+
+#Driver Program 
+print("Julia: Greetings of the day. I am Julia, the official Chatbot of IIIT Naya Raipur. Can I know your name?")
+name = input('Human: ')
+print("Julia: Hello ",end = '')
+print(name, end = '')
+print(". How can I help you?")
+while(x == True):
+    message = input('Human: ')
+    getReply(message)
