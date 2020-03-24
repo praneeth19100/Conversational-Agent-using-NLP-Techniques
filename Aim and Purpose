@@ -1,0 +1,12 @@
+Purpose:
+The purpose of this project is to create a virtual robot which answers any question related to IIIT Naya Raipur without the intervention of man-kind.
+
+
+Aim:
+The aim of the project is described below:
+To create a conversational agent which can respond to queries related to IIIT Naya Raipur.
+To use the techniques of Natural Language Processing to identify the keywords and match them in the defined database.
+To use the defined libraries to perform Text to Speech and vice-versa processing.
+To make the robot understand the usage of multiple Keywords.
+To use the defined libraries to perform the identification of the required web pages.
+To design a web-based user interface. 
