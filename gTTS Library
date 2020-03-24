@@ -1,0 +1,10 @@
+#gTTS Code
+from gtts import gTTS 
+import os
+
+
+mytext = 'The Name of the Institute is Doctor SPM International Institute of Information Technology triple IT Naya-Raipur'
+language = 'en'
+myobj = gTTS(text=mytext, lang=language, slow=False) 
+myobj.save("output.mp3")
+os.system("start output.mp3")
